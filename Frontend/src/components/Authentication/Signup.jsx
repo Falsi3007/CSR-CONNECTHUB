@@ -4,6 +4,7 @@ import { signupFields } from "../../constants/formField"
 import FormAction from "./FormAction";
 import Input from "./Input";
 
+
 const fields = signupFields;
 let fieldsState = {};
 
