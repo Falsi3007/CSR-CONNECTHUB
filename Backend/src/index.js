@@ -3,7 +3,6 @@ require('dotenv').config();
 const connectDB = require('../src/db/db');
 const app = require('../src/app');
 
-
 connectDB()
 .then( () => {
     app.listen(process.env.PORT || 3000, () => {
